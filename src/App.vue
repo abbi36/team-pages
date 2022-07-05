@@ -1,20 +1,19 @@
-<template>
-<div>
-<h1>Hello (: </h1>
-</div> 
-</template>
-
-<script>
-
-
-export default {
-  name: 'App',
-  components: {
-  
-  }
-}
+<script setup>
+import Topper from "@/components/Banner";
+import Footer from "@/components/Footer";
 </script>
 
+<script>
+export default {
+	name: "App"
+};
+</script>
+
+<template>
+	<Topper />
+	<Footer />
+</template>
+
 <style>
-@import "./style.css"
+
 </style>

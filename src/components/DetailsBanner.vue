@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="column">
 				<div class="blue-column">
-					<p>Meet Our Team</p>
+					<p>Meet </p>
 				</div>
 			</div>
 		</div>
@@ -59,7 +59,7 @@ export default {
 
 .blue-column {
 	display: flex;
-	background-image: url('../assets/Team.png');
+	background-image: url('../assets/DetailsImage.jpg');
 	height: 200px;
 	align-items: center;
 	padding-left: 20vw;
