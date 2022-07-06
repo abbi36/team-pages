@@ -1,21 +1,20 @@
+<template>
+	<DetailsBanner />
+	<a href="gallery.html">
+		<h1>Gallery Page</h1>
+	</a>
+	<FooterComponent />
+</template>
+
 <script setup>
-import DetailsBanner from "./components/DetailsBanner";
-import FooterComponent from "./components/FooterComponent";
+import DetailsBanner from "@/components/DetailsBanner";
+import FooterComponent from "@/components/FooterComponent";
 </script>
 
 <script>
 export default {
-  name: "App",
-  components: {
-    DetailsBanner,
-    FooterComponent,
-  },
+	name: "App",
 };
 </script>
-
-<template>
-  <DetailsBanner />
-  <FooterComponent />
-</template>
 
 <style></style>
