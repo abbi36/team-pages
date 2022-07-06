@@ -1,13 +1,15 @@
 <template>
 	<div class="some-page-wrapper">
-        <div class="row">
-            <div class="column">
-                <div class="footer-image"></div>
-            </div>
-        </div>
 		<div class="logo-row">
-			<div class="bottom-column">
-				<span class="black-span"></span>
+			<div class="column">
+				<img class="logo" src="../assets/SnapIT.webp">
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="blue-column">
+					<p>Meet </p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -15,7 +17,7 @@
 
 <script>
 export default {
-	name: "FooterComponent",
+	name: "Banner",
 };
 </script>
 
@@ -25,7 +27,6 @@ export default {
 .some-page-wrapper {
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-    margin-bottom: 0;
 }
 
 .logo-row {
@@ -43,25 +44,24 @@ export default {
 	width: 100%;
 }
 
-.footer-image {
-	display: flex;
-	background-image: url('../assets/Footer.png');
-	height: 300px;
-	align-items: center;
-	padding-left: 20vw;
-}
-
-.bottom-column {
-    background-color: black;
+.column {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
 	flex: 1;
 }
 
-.black-span {
+.logo {
 	max-height: auto;
 	max-width: 60px;
+	padding-left: 20vw;
+}
+
+.blue-column {
+	display: flex;
+	background-image: url('../assets/DetailsImage.jpg');
+	height: 200px;
+	align-items: center;
 	padding-left: 20vw;
 }
 
