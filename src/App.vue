@@ -1,6 +1,6 @@
 <script setup>
-import Topper from "@/components/Banner";
-import Footer from "@/components/Footer";
+import GalleryBanner from "@/components/GalleryBanner";
+import FooterComponent from "@/components/FooterComponent";
 </script>
 
 <script>
@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-	<Topper />
-	<Footer />
+	<GalleryBanner />
+	<FooterComponent />
 </template>
 
 <style>
