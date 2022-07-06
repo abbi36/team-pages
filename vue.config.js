@@ -1,18 +1,19 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true,
+//const { defineConfig } = require("@vue/cli-service");
+module.exports = {
+  //defineConfig({
+  //transpileDependencies: true,
   pages: {
-    'gallery': {
-      entry: './src/pages/Gallery/main.js',
-      template: 'public/index.html',
-      title: 'Gallery',
-      chunks: [ 'chunk-vendors', 'chunk-common', 'gallery' ]
+    index: {
+      entry: "./src/pages/Gallery/main.js",
+      template: "public/index.html",
+      title: "Gallery",
+      chunks: ["chunk-vendors", "chunk-common", "index"],
     },
-    'details': {
-      entry: './src/pages/Details/main.js',
-      template: 'public/index.html',
-      title: 'Details',
-      chunks: [ 'chunk-vendors', 'chunk-common', 'details' ]
-    }
-  }
-})
+    details: {
+      entry: "./src/pages/Details/main.js",
+      template: "public/index.html",
+      title: "Details",
+      chunks: ["chunk-vendors", "chunk-common", "details"],
+    },
+  },
+};
