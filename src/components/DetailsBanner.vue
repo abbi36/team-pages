@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="column">
 				<div class="blue-column">
-					<p>Meet </p>
+					<p>Meet {{firstName}}</p>
 				</div>
 			</div>
 		</div>
@@ -23,6 +23,11 @@
 <script>
 export default {
 	name: "Banner",
+	data() {
+		return {
+			firstName : "Parish" 
+		}
+	}
 };
 </script>
 
