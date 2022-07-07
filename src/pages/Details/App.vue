@@ -1,7 +1,7 @@
 <template>
 	<DetailsBanner />
 	<a href="gallery.html">
-		<h1>Gallery Page</h1>
+		<h1>Gallery Page and...Parish is amazing!!!</h1>
 	</a>
 	<FooterComponent />
 </template>
