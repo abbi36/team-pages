@@ -79,17 +79,34 @@ p {
 
 h1 {
 	display: inline-flex;
-	padding-right: 600px;
+	padding-right: 675px;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 28px;
-	line-height: 49px;
+	font-size: 21px;
+	line-height: 70px;
 	color: #747474;
 }
 
-h1:hover {
+a:link {
+	text-decoration: none;	
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
   color: black;
   text-decoration: underline;
+}
+
+a:active {
+	color: black;
+  	text-decoration: underline;
+}
+
+h1:hover {
+	color: black;
 }
 
 </style>
