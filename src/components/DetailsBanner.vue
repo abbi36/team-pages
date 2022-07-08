@@ -62,14 +62,14 @@ export default {
 .logo {
 	max-height: auto;
 	max-width: 60px;
-	padding-left: 20vw;
+	padding-left: 15%;
 }
 .blue-column {
 	display: flex;
 	background-image: url('../assets/DetailsImage.jpg');
 	height: 200px;
 	align-items: center;
-	padding-left: 20vw;
+	padding-left: 20vm;
 }
 p {
 	color: white;

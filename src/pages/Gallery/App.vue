@@ -3,12 +3,14 @@
 	<a href="details.html">
 		<h1>Details Page</h1>
 	</a>
+	<GalleryComponent />
 	<FooterComponent />
 </template>
 
 <script setup>
 import GalleryBanner from "@/components/GalleryBanner";
 import FooterComponent from "@/components/FooterComponent";
+import GalleryComponent from "@/components/GalleryComponent";
 </script>
 
 <script>
