@@ -62,7 +62,7 @@
 }
 
 .pic {
-    background-color: white;
+    background-color: rgb(126, 121, 121);
     width: 26%;
 }
 
