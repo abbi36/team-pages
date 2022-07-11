@@ -64,17 +64,19 @@
 .pic {
     background-color: rgb(126, 121, 121);
     width: 26%;
+    margin-left: 1000px;
 }
 
 .details {
     background-color: gray;
     width: 26%;
-    margin-left: 10px;
+    margin-left: 160px;
 }
 
 .interests {
     color: black;
     font-family: poppins, sans-serif;
+    margin-left: 1200px;
 }
 
 .icons {
@@ -84,7 +86,8 @@
 
 .sampleIcon {
     height: 60px;
-    width: 60px;
+    width: 60px; 
+    margin-left: 1100px;
 }
 
 </style>
