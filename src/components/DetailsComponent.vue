@@ -29,13 +29,21 @@
 </template>
 
 <script>
-    export default {
-        name: "DetailsComponent",
-        data()  {
-            firstName: "Abbi"
+import axios from "axios";
+
+export default {
+    name: "DetailsComponent",
+    created: function() {
         
-        }
-    }
+    },
+
+    created() {
+        axios.get("https://jsonplaceholder.typicode.com/users/").then((res) => {
+            this.users = res.data;
+        });
+    },
+};
+
 </script>
 
 <style>
@@ -62,7 +70,7 @@
 }
 
 .pic {
-    background-color: rgb(126, 121, 121);
+    background-color: white;
     width: 26%;
     margin-left: 1000px;
 }
