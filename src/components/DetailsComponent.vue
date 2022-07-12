@@ -76,7 +76,7 @@ export default {
 }
 
 .blobHolder {
-     display: flex;
+    display: flex;
     min-height: 500px;
     width: auto;
     margin-top: 50px;
