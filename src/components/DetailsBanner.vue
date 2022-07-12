@@ -6,14 +6,14 @@
 			</div>
 			<div>
 				<a href="gallery.html">
-					<h1>back to team gallery</h1>
+					<h1 class="link">back to team gallery</h1>
 				</a>
 			</div>
 		</div>
 		<div class="row">
 			<div class="column">
 				<div class="blue-column">
-					<p>Meet {{firstName}}</p>
+					<p class="intro">Meet {{firstName}}</p>
 				</div>
 			</div>
 		</div>
@@ -71,13 +71,13 @@ export default {
 	align-items: center;
 	padding-left: 20vm;
 }
-p {
+.intro {
 	color: white;
 	font-size: 48px;
 	padding: 0%;
 }
 
-h1 {
+.link {
 	display: inline-flex;
 	padding-right: 675px;
 	font-style: normal;
@@ -105,7 +105,7 @@ a:active {
   	text-decoration: underline;
 }
 
-h1:hover {
+.link:hover {
 	color: black;
 }
 
