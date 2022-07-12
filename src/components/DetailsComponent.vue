@@ -6,9 +6,10 @@
                 <div class="frame">
                     <img class="pic" src="..\assets\blue-blob.png">
                 </div>
-                <img class="badge" src="..\assets\AppBadge.png">
             </div>
+            <img class="badge" src="..\assets\AppBadge.png">
         </div>
+        
         <div class="compColumn">
             <div class="details">
                 <h1 class="fullName">Parish Neighbors-Godbold</h1>
@@ -79,7 +80,7 @@ export default {
     min-height: 500px;
     width: auto;
     margin-top: 50px;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 0%;
 }
 
@@ -109,11 +110,11 @@ export default {
 }
 
 .details {
-    width: 65%;
-    margin-right: 30%;
-    margin-top: 100px;
+    width: 75%;
+    margin-right: 15%;
+    margin-top: 175px;
     align-content: top;
-    padding-left: 12%;
+    padding-left: 18%;
 }
 
 .fullName {
@@ -123,7 +124,7 @@ export default {
     font-family: poppins;
     color: #0679be;
     line-height: 27px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-top: 0px;
 }
 
@@ -167,6 +168,7 @@ export default {
     line-height: 27px;
     font-family: poppins;
     margin-bottom: 0px;
+    padding-top: 15px;
 }
 
 .startYear {
@@ -175,7 +177,7 @@ export default {
     font-size: 17px;
     line-height: 23px;
     color: #111111;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 0px;
 }
 
@@ -185,8 +187,8 @@ export default {
     font-size: 17px;
     line-height: 23px;
     color: #111111;
-    margin-top: 20px;
-    padding-right: 25%;
+    margin-top: 25px;
+    padding-right: 20%;
 }
 
 .hobby {
@@ -219,9 +221,11 @@ export default {
 }
 
 .badge {
-    height: 15%;
-    width: auto;
-
+    height: auto;
+    width: 180px;
+    margin-top: -23%;
+    padding-left: 68%;
+    z-index: 1;
 }
 
 </style>
