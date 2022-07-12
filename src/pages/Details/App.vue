@@ -1,8 +1,5 @@
 <template>
 	<DetailsBanner />
-	<a href="gallery.html">
-		<h2>Gallery Page</h2>
-	</a>
 	<DetailsComponent />
 	<FooterComponent />
 </template>

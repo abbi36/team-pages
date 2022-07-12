@@ -1,31 +1,35 @@
-
 <template>
 <div>
     <div class="info" >
         <div class="row">
             <div class="column">
-                <div class="pic">
-                    <img src="..\assets\SnapIT.webp">
+                <div class="blobHolder">
+                    <img class="pic" src="..\assets\SnapIT.webp">
+                    <img class="badge" src="..\assets\AppBadge.png">
                 </div>
             </div>
             <div class="column">
                 <div class="details">
-                    <h1>Parish Neighbors</h1>
-                    <h3>Scrum/Lord</h3>
-                    <h5>Chief Irritator</h5>
-                    <h6>Parish joined SnapIT in 1908.</h6>
-                    <h6>Ihiusfuhsf hgoihs hsodiso vsoidosd.!</h6>
+                    <h1 class="fullName">Parish Neighbors</h1>
+                    <h2 class="pronouns">mister/sir</h2>
+                    <h3 class="title">Chief Irritator</h3>
+                    <h6 class="jobData">Parish joined SnapIT in 1908.</h6>
+                    <h6 class="jobData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo.</h6>
                 </div>
             </div>
         </div>
     </div> 
     <div class="lowerInfo">
         <div class="interests">
-            <h1>Hobbies and Interests</h1>
-            <h5>Blahkfdsjflsj</h5>
+            <h1 class="hobby">Hobbies and Interests</h1>
+            <h5 class="hobbyData">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ad atque fugiat, voluptates adipisci nisi dolorem quia soluta placeat aperiam odio dolorum culpa, deleniti eius cum voluptatibus laudantium voluptatum quibusdam?</h5>
         </div>
         <div class="icons">
-            <img class="sampleIcon" src="..\assets\SnapIT.webp">
+            <img class="sampleIcon" src="..\assets\LinkedIn.webp">
+            <img class="sampleIcon" src="..\assets\GitHub.webp">
+            <img class="sampleIcon" src="..\assets\Insta.webp">
+            <img class="sampleIcon" src="..\assets\YouTube.webp">
+            <img class="sampleIcon" src="..\assets\Link.webp">
         </div>
     </div>
     </div>  
@@ -52,11 +56,9 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.info {
-    margin: 15px;
-}
 
 .row {
+    margin-top: 75px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,19 +71,30 @@ export default {
     flex-basis: 100%;
     flex: 1;
     justify-content: center;
-    width: 26%;
+}
+
+.blobHolder {
+    width:50%;
+    margin-left: 30%;
 }
 
 .pic {
-    background-color: white;
-    width: 26%;
-    margin-left: 45%;
+    width: 75%;
+    margin-left: 15%;
 }
 
 .details {
-    background-color: gray;
-    width: 30%;
-    margin-left: 10%;
+    width: 50%;
+    margin-right: 15%;
+}
+
+.fullName {
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: poppins;
+    color: #0679be;
+
 }
 
 .interests {
@@ -90,11 +103,11 @@ export default {
     width: 55%;
     margin-left: 22%;
 }
-
 .lowerInfo {
     display: flexbox;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    padding-left: 22%;
     width: 55%;
 }
 
@@ -103,10 +116,54 @@ export default {
     width: 100%;
 }
 
+.pronouns {
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: poppins;
+}
+
+.jobData {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #111111;
+}
+
+.hobby {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1b1b1b;
+}
+
+.hobbyData {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #111111;
+}
+
 .sampleIcon {
-    height: 10%;
-    width: 10%; 
-    margin-left: 50%;
+    height: 7%;
+    width: 7%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.badge {
+    height: 15%;
+    width: auto;
+
 }
 
 </style>
