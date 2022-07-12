@@ -1,21 +1,19 @@
 <template>
 <div>
-    <div class="info" >
-        <div class="row">
-            <div class="column">
-                <div class="blobHolder">
-                    <img class="pic" src="..\assets\SnapIT.webp">
-                    <img class="badge" src="..\assets\AppBadge.png">
-                </div>
+    <div class="compRow" >
+        <div class="compColumn">
+            <div class="blobHolder">
+                <img class="pic" src="..\assets\profile.jpg">
+                <img class="badge" src="..\assets\AppBadge.png">
             </div>
-            <div class="column">
-                <div class="details">
-                    <h1 class="fullName">Parish Neighbors</h1>
-                    <h2 class="pronouns">mister/sir</h2>
-                    <h3 class="title">Chief Irritator</h3>
-                    <h6 class="jobData">Parish joined SnapIT in 1908.</h6>
-                    <h6 class="jobData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo.</h6>
-                </div>
+        </div>
+        <div class="compColumn">
+            <div class="details">
+                <h1 class="fullName">Parish Neighbors-Godbold</h1>
+                <h2 class="pronouns">(mister/sir)</h2>
+                <h3 class="title">Chief Irritator</h3>
+                <h6 class="startYear">Parish joined SnapIT in 1908.</h6>
+                <h6 class="jobData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo.</h6>
             </div>
         </div>
     </div> 
@@ -57,35 +55,41 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-.row {
-    margin-top: 75px;
+.compRow {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    align-items: flex-start;
 }
 
-.column {
+.compColumn {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    justify-content: center;
+    
 }
 
 .blobHolder {
-    width:50%;
+    width:65%;
     margin-left: 30%;
+    margin-top: 100px;
+    align-self: center;
 }
 
 .pic {
-    width: 75%;
-    margin-left: 15%;
+    width: 100%;
+    
 }
 
 .details {
-    width: 50%;
-    margin-right: 15%;
+    width: 65%;
+    margin-right: 30%;
+    margin-top: 100px;
+    align-content: top;
+    padding-left: 12%;
 }
 
 .fullName {
@@ -94,7 +98,9 @@ export default {
     font-style: normal;
     font-family: poppins;
     color: #0679be;
-
+    line-height: 27px;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 .interests {
@@ -117,9 +123,12 @@ export default {
 }
 
 .pronouns {
-    font-size: 32px;
+    font-size: 24px;
     font-family: poppins;
     font-weight: 600;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .title {
@@ -127,14 +136,27 @@ export default {
     font-size: 18px;
     line-height: 27px;
     font-family: poppins;
+    margin-bottom: 0px;
 }
 
-.jobData {
-    font-family: poppins;
+.startYear {
+    font-family: open-sans;
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
     color: #111111;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.jobData {
+    font-family: open-sans;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #111111;
+    margin-top: 20px;
+    padding-right: 25%;
 }
 
 .hobby {
