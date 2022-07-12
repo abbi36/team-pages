@@ -3,7 +3,9 @@
     <div class="compRow" >
         <div class="compColumn">
             <div class="blobHolder">
-                <img class="pic" src="..\assets\profile.jpg">
+                <div class="frame">
+                    <img class="pic" src="..\assets\blue-blob.png">
+                </div>
                 <img class="badge" src="..\assets\AppBadge.png">
             </div>
         </div>
@@ -73,14 +75,36 @@ export default {
 }
 
 .blobHolder {
-    width:65%;
-    margin-left: 30%;
-    margin-top: 100px;
-    align-self: center;
+     display: flex;
+    min-height: 500px;
+    width: auto;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 0%;
+}
+
+.frame {
+     position: relative;
+    
+
+    width: 600px;
+    height: 550px;
+
+    background-image: url(@/assets/sudheer.webp);
+    background-repeat: no-repeat;
+    background-position: left 100px top 40px;
+    background-size: 85%;
 }
 
 .pic {
-    width: 100%;
+      position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    margin: auto;
     
 }
 
