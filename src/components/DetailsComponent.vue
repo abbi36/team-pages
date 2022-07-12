@@ -222,7 +222,7 @@ export default {
 
 .badge {
     height: auto;
-    width: 180px;
+    width: 25%;
     margin-top: -23%;
     padding-left: 68%;
     z-index: 1;
