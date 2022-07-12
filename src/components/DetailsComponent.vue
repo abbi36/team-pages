@@ -151,6 +151,7 @@ export default {
     width: 40%;
     padding-left: 30%;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 .pronouns {
