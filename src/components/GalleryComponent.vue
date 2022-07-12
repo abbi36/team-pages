@@ -3,7 +3,7 @@
 
         
         <div class="card" style="width:175px">
-  <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
+ <a href="https://trello.com/b/9JeBfHJc/fdb-team-member-page"><img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/></a> 
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
         <p class="title">Apprentice</p>

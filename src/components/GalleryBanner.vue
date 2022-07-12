@@ -54,7 +54,7 @@ export default {
 .logo {
 	max-height: auto;
 	max-width: 60px;
-	padding-left: 20vw;
+	padding-left: 10%;
 }
 
 .blue-column {
@@ -62,7 +62,7 @@ export default {
 	background-image: url('../assets/Team.png');
 	height: 200px;
 	align-items: center;
-	padding-left: 20vw;
+	padding-left: 10%;
 }
 
 p {
