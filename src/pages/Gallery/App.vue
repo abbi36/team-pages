@@ -21,7 +21,7 @@ export default {
 
 <style>
 .detailLink {
-	color: black:
+	color: black;
 }
 
 </style>

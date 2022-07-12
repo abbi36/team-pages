@@ -103,6 +103,7 @@ export default {
     width: 55%;
     margin-left: 22%;
 }
+
 .lowerInfo {
     display: flexbox;
     flex-direction: column;
@@ -150,14 +151,16 @@ export default {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
+    font-stretch: 15%;
     color: #111111;
 }
 
 .sampleIcon {
     height: 7%;
     width: 7%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 10%;
 }
 
 .badge {
