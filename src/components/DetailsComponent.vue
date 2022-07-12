@@ -1,3 +1,4 @@
+
 <template>
 <div>
     <div class="info" >
@@ -17,15 +18,17 @@
                 </div>
             </div>
         </div>
+    </div> 
+    <div class="lowerInfo">
+        <div class="interests">
+            <h1>Hobbies and Interests</h1>
+            <h5>Blahkfdsjflsj</h5>
+        </div>
+        <div class="icons">
+            <img class="sampleIcon" src="..\assets\SnapIT.webp">
+        </div>
     </div>
-    <div class="interests">
-        <h1>Hobbies and Interests</h1>
-        <h5>Blahkfdsjflsj</h5>
-    </div>
-    <div class="icons">
-        <img class="sampleIcon" src="..\assets\SnapIT.webp">
-    </div>
-</div>
+    </div>  
 </template>
 
 <script>
@@ -72,19 +75,27 @@ export default {
 .pic {
     background-color: white;
     width: 26%;
-    margin-left: 1000px;
+    margin-left: 45%;
 }
 
 .details {
     background-color: gray;
-    width: 26%;
-    margin-left: 160px;
+    width: 30%;
+    margin-left: 10%;
 }
 
 .interests {
     color: black;
     font-family: poppins, sans-serif;
-    margin-left: 1200px;
+    width: 55%;
+    margin-left: 22%;
+}
+
+.lowerInfo {
+    display: flexbox;
+    flex-direction: column;
+    align-content: center;
+    width: 55%;
 }
 
 .icons {
@@ -93,9 +104,9 @@ export default {
 }
 
 .sampleIcon {
-    height: 60px;
-    width: 60px; 
-    margin-left: 1100px;
+    height: 10%;
+    width: 10%; 
+    margin-left: 50%;
 }
 
 </style>
