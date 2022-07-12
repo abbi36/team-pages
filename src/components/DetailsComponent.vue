@@ -145,7 +145,7 @@ export default {
 .icons {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
     height: auto;
     width: 40%;
     padding-left: 30%;
@@ -221,7 +221,7 @@ export default {
 .badge {
     height: 15%;
     width: auto;
-
+    
 }
 
 </style>
