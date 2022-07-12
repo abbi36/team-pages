@@ -128,23 +128,28 @@ export default {
 }
 
 .interests {
+    display: flex;
+    flex-direction: column;
     color: black;
     font-family: poppins, sans-serif;
-    width: 55%;
-    margin-left: 22%;
+    width: 100%;
 }
 
 .lowerInfo {
     display: flexbox;
     flex-direction: column;
     justify-content: center;
-    padding-left: 22%;
-    width: 55%;
+    width: 100%;
 }
 
 .icons {
+    display: flex;
+    flex-direction: row;
+    
     height: auto;
-    width: 100%;
+    width: 40%;
+    padding-left: 30%;
+    padding-bottom: 50px;
 }
 
 .pronouns {
@@ -185,14 +190,19 @@ export default {
 }
 
 .hobby {
+    padding-left: 40%;
+    width: 20%;
     font-family: poppins;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #1b1b1b;
+    justify-self: center;
 }
 
 .hobbyData {
+    padding-left: 15%;
+    width: 70%;
     font-family: poppins;
     font-weight: 400;
     font-size: 17px;
@@ -202,11 +212,10 @@ export default {
 }
 
 .sampleIcon {
-    height: 7%;
-    width: 7%;
-    padding-left: 1px;
-    padding-right: 1px;
-    margin-left: 10%;
+    height: 10%;
+    width: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .badge {
