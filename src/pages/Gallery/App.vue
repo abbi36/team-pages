@@ -1,7 +1,7 @@
 <template>
 	<GalleryBanner />
 	<a href="details.html">
-		<h1>Details Page</h1>
+		<h1 class="detailLink">Details Page</h1>
 	</a>
 	<GalleryComponent />
 	<FooterComponent />
@@ -19,4 +19,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.detailLink {
+	color: black:
+}
+
+</style>
