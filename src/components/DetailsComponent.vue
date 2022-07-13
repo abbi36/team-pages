@@ -1,16 +1,16 @@
 <template>
 <div>
-    <div class="compRow" >
-        <div class="compColumn">
-            <div class="blobHolder">
+    <div class="detailRow" >
+        <div class="detailColumn">
+            <div class="picBackColor">
                 <div class="frame">
                     <img class="pic" src="..\assets\blue-blob.png">
                 </div>
             </div>
-            <img class="badge" src="..\assets\AppBadge.png">
+            <img class="appBadge" src="..\assets\AppBadge.png">
         </div>
         
-        <div class="compColumn">
+        <div class="detailColumn">
             <div class="details">
                 <h1 class="fullName">Parish Neighbors</h1>
                 <h2 class="pronouns">(mister/sir)</h2>
@@ -26,11 +26,11 @@
             <h5 class="hobbyData">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ad atque fugiat, voluptates adipisci nisi dolorem quia soluta placeat aperiam odio dolorum culpa, deleniti eius cum voluptatibus laudantium voluptatum quibusdam?</h5>
         </div>
         <div class="icons">
-            <img class="sampleIcon" src="..\assets\LinkedIn.webp">
-            <img class="sampleIcon" src="..\assets\GitHub.webp">
-            <img class="sampleIcon" src="..\assets\Insta.webp">
-            <img class="sampleIcon" src="..\assets\YouTube.webp">
-            <img class="sampleIcon" src="..\assets\Link.webp">
+            <img class="socialLink" src="..\assets\LinkedIn.webp">
+            <img class="socialLink" src="..\assets\GitHub.webp">
+            <img class="socialLink" src="..\assets\Insta.webp">
+            <img class="socialLink" src="..\assets\YouTube.webp">
+            <img class="socialLink" src="..\assets\Link.webp">
         </div>
     </div>
     </div>  
@@ -58,7 +58,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-.compRow {
+.detailRow {
     
     display: flex;
     flex-direction: row;
@@ -67,7 +67,7 @@ export default {
     align-items: flex-start;
 }
 
-.compColumn {
+.detailColumn {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -75,7 +75,7 @@ export default {
     
 }
 
-.blobHolder {
+.picBackColor {
     display: flex;
     min-height: 500px;
     width: auto;
@@ -85,12 +85,9 @@ export default {
 }
 
 .frame {
-     position: relative;
-    
-
+    position: relative;
     width: 600px;
     height: 550px;
-
     background-image: url(@/assets/sudheer.webp);
     background-repeat: no-repeat;
     background-position: left 100px top 40px;
@@ -98,12 +95,11 @@ export default {
 }
 
 .pic {
-      position: absolute;
+    position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-
     display: block;
     margin: auto;
     
@@ -214,17 +210,19 @@ export default {
     color: #111111;
 }
 
-.sampleIcon {
+.socialLink {
     height: 10%;
     width: 10%;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.badge {
-    height: 15%;
-    width: auto;
-    
+.appBadge {
+    height: auto;
+    width: 25%;
+    margin-top: -23%;
+    padding-left: 68%;
+    z-index: 1;
 }
 
 </style>
