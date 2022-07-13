@@ -1,9 +1,7 @@
 <template>
 	<div class="some-page-wrapper">
 		<div class="logo-row">
-			<div class="column">
 				<img class="logo" src="../assets/SnapIT.webp">
-			</div>
 			<div>
 				<a href="gallery.html">
 					<h1 class="link">back to team gallery</h1>
@@ -44,6 +42,8 @@ export default {
 	flex-wrap: wrap;
 	width: 100%;
 	height: 75px;
+	align-items: center;
+	padding-bottom: 2vh;
 }
 .row {
 	display: flex;
@@ -62,14 +62,14 @@ export default {
 .logo {
 	max-height: auto;
 	max-width: 60px;
-	padding-left: 15%;
+	padding-left: 10%;
 }
 .blue-column {
 	display: flex;
 	background-image: url('../assets/DetailsImage.jpg');
 	height: 200px;
 	align-items: center;
-	padding-left: 20vm;
+	padding-left: 10%;
 }
 .intro {
 	color: white;
@@ -78,12 +78,11 @@ export default {
 }
 
 .link {
-	display: inline-flex;
-	padding-right: 675px;
+	margin-left: 10px;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 21px;
-	line-height: 70px;
+	font-size: 24px;
+	/* line-height: 70px; */
 	color: #747474;
 }
 
