@@ -12,7 +12,7 @@
         
         <div class="compColumn">
             <div class="details">
-                <h1 class="fullName">Parish Neighbors-Godbold</h1>
+                <h1 class="fullName">Parish Neighbors</h1>
                 <h2 class="pronouns">(mister/sir)</h2>
                 <h3 class="title">Chief Irritator</h3>
                 <h6 class="startYear">Parish joined SnapIT in 1908.</h6>
