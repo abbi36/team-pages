@@ -12,25 +12,35 @@
         
         <div class="detailColumn">
             <div class="details">
-                <h1 class="fullName">Parish Neighbors</h1>
-                <h2 class="pronouns">(mister/sir)</h2>
-                <h3 class="title">Chief Irritator</h3>
-                <h6 class="startYear">Parish joined SnapIT in 1908.</h6>
-                <h6 class="jobData">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo.</h6>
+                <h1 class="fullName">{{firstName}} {{lastName}}</h1>
+                <h2 class="pronouns">({{pronouns}})</h2>
+                <h3 class="title">{{title}}</h3>
+                <h6 class="startYear">{{firstName}} joined SnapIT in{{startYear}}.</h6>
+                <h6 class="jobData">{{jobData}}</h6>
             </div>
         </div>
     </div> 
     <div class="lowerInfo">
         <div class="interests">
             <h1 class="hobby">Hobbies and Interests</h1>
-            <h5 class="hobbyData">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ad atque fugiat, voluptates adipisci nisi dolorem quia soluta placeat aperiam odio dolorum culpa, deleniti eius cum voluptatibus laudantium voluptatum quibusdam?</h5>
+            <h5 class="hobbyData">{{hobbyData}}</h5>
         </div>
         <div class="icons">
-            <img class="socialLink" src="..\assets\LinkedIn.webp">
-            <img class="socialLink" src="..\assets\GitHub.webp">
-            <img class="socialLink" src="..\assets\Insta.webp">
-            <img class="socialLink" src="..\assets\YouTube.webp">
-            <img class="socialLink" src="..\assets\Link.webp">
+
+            <a href="https://www.linkedin.com/in/abbigail-engel-1a81171a2/">
+            <img class="socialLink" src="..\assets\LinkedIn.webp"> </a>
+
+            <a href="https://github.com/jgroff8806">
+            <img class="socialLink" src="..\assets\GitHub.webp"> </a>
+
+            <a href="https://www.instagram.com/isaacmad/">
+            <img class="socialLink" src="..\assets\Insta.webp"> </a>
+
+            <a href="https://www.youtube.com/megazipp">
+            <img class="socialLink" src="..\assets\YouTube.webp"> </a>
+
+            <a href="https://jasongroff.com/">
+            <img class="socialLink" src="..\assets\Link.webp"> </a>
         </div>
     </div>
     </div>  
@@ -40,9 +50,17 @@
 import axios from "axios";
 
 export default {
-    name: "DetailsComponent",
-    created: function() {
-        
+    data() {
+        return {
+            firstName : "Parish",
+            lastName : "Neighbors",
+            pronouns : "mister/sir",
+            title : "Chief Irritator",
+            startYear : "1908",
+            jobData : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo.",
+            hobbyData : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, impedit ipsum molestiae, repellat placeat veritatis ullam similique dicta possimus temporibus ratione nisi accusamus quis velit minima maiores voluptas perspiciatis illo."
+
+        }
     },
 
     created() {
@@ -211,8 +229,8 @@ export default {
 }
 
 .socialLink {
-    height: 10%;
-    width: 10%;
+    height: auto;
+    width: 50%;
     padding-left: 15px;
     padding-right: 15px;
 }
