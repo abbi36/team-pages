@@ -1,9 +1,9 @@
 <template>
 	<div class="some-page-wrapper">
 		<div class="logo-row">
-			<div class="column">
+			<!-- <div class="column"> -->
 				<img class="logo" src="../assets/SnapIT.webp">
-			</div>
+			<!-- </div> -->
 		</div>
 		<div class="row">
 			<div class="column">
@@ -35,6 +35,8 @@ export default {
 	flex-wrap: wrap;
 	width: 100%;
 	height: 75px;
+	align-items: center;
+	padding-bottom: 1vh;
 }
 
 .row {
@@ -54,7 +56,7 @@ export default {
 .logo {
 	max-height: auto;
 	max-width: 60px;
-	padding-left: 20vw;
+	padding-left: 10%;
 }
 
 .blue-column {
@@ -62,7 +64,7 @@ export default {
 	background-image: url('../assets/Team.png');
 	height: 200px;
 	align-items: center;
-	padding-left: 20vw;
+	padding-left: 10%;
 }
 
 p {

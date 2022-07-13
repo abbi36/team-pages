@@ -5,7 +5,7 @@
                 <div class="footer-image"></div>
             </div>
         </div>
-		<div class="logo-row">
+		<div class="black-row">
 			<div class="bottom-column">
 				<span class="black-span"></span>
 			</div>
@@ -28,7 +28,7 @@ export default {
     margin-bottom: 0;
 }
 
-.logo-row {
+.black-row {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;

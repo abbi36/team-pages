@@ -43,7 +43,7 @@ export default {
 	width: 100%;
 	height: 75px;
 	align-items: center;
-	padding-bottom: 2vh;
+	padding-bottom: 1vh;
 }
 .row {
 	display: flex;

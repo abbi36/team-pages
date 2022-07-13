@@ -2,7 +2,7 @@
 <div class="page-box">
 
         
-        <div class="card" style="width:175px">
+        <div class="card" style="width:300px">
   <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
@@ -11,7 +11,7 @@
 </div>
 
 
-<div class="card" style="width:175px">
+<div class="card" style="width:300px">
     <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
@@ -20,7 +20,7 @@
 </div>
 
 
-<div class="card" style="width:175px">
+<div class="card" style="width:300px">
     <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
@@ -29,7 +29,7 @@
 </div>
 
 
-<div class="card" style="width:175px">
+<div class="card" style="width:300px">
     <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
@@ -38,7 +38,7 @@
 </div>
 
 
-<div class="card" style="width:175px">
+<div class="card" style="width:300px">
     <img class="shane" src="@/assets/profile.jpg" alt="Avatar" style="width:100%"/>
     <div class="container">
         <h4 class="name"><b>Dshane Godbold</b></h4>
@@ -60,16 +60,18 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .page-box{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card {
   transition: 0.3s;
-  width: 40%;
+  width: 200px;
   text-align: center;
 }
 
